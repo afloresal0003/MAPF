@@ -1,18 +1,77 @@
-# Repository for MAPF Framework
-<html>
-<head>
-</head>
-<body>
-  <div class = "Div1">
-   <h3> Background </h3>
-    <p> I joined the ACT Lab as part of USC Viterbi's SHINE program. The internship lasted 3 months Monday-Friday, with another 4 months of occasional work being done to it. 
-    </p>
-  </div>
-  <p> This MAPF framework was meant to optimize the error rate of multiple agents with high obstacle densities.</p>
-  <h3> MAPF Framework Poster </h3>
-  <p><a href="https://1l7puj10vwe3zflo2jsktkit-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/S20_Flores_Alvarez_Poster.pdf">Link: </a></p>
-  <h3> Credit:</h3>
-   <p> - Eric Ewing: PhD student mentor who helped introduce me to the world of AI and was there to support me at every step of the development process. </p>
-   <p> - Anthony Flores-Alvarez </p>
-</body>
-</html>
+# MAPF Framework — Deep Reinforcement Learning for Multi-Agent Path Finding
+
+This repository contains my research work at the ACT Lab (USC Viterbi School of Engineering), where I developed a decentralized Multi-Agent Path Finding (MAPF) framework using deep reinforcement learning (DRL) to optimize collision-free navigation for teams of autonomous agents operating in obstacle-dense environments.
+
+MAPF is an NP-hard problem with growing relevance to real-world robotics, warehouse logistics, and multi-robot coordination. This project explores the application of deep reinforcement learning to overcome scalability challenges found in traditional MAPF solvers.
+
+---
+
+## 🔬 Research Context
+
+- **Program:** USC Viterbi School of Engineering — SHINE Research Program  
+- **Duration:** 3-month full-time research internship + 4 months part-time continuation  
+- **Lab:** ACT Lab (Autonomous Collective Transportation Lab), USC  
+- **Mentor:** Eric Ewing (PhD Candidate, USC)
+
+---
+
+## 🧠 Core Methods
+
+- Developed a decentralized MAPF planner using:
+  - **Deep Reinforcement Learning (DRL)** — Advantage Actor-Critic (A2C) algorithm
+  - **Deep Convolutional Neural Networks (CNNs)** for policy learning
+  - **Vector-based observation spaces** combining obstacle maps, agent locations, goal vectors, and magnitude scaling
+- Designed experiments varying:
+  - Number of agents
+  - Obstacle densities
+  - Environment sizes
+- Evaluated success rates, solution lengths, and generalization performance across MAPF scenarios.
+
+---
+
+## 📊 Additional Work
+
+- Trained DNN models on the EMNIST dataset (240K handwritten digits) using PyTorch, achieving 98% classification accuracy.
+- Prototyped a second MAPF framework variant ("SMP") using TensorFlow to explore additional DRL architectures and heuristics.
+- Generated internal technical reports analyzing MAPF framework inefficiencies, DRL policy behavior, and framework improvement directions.
+
+---
+
+## 📂 Technologies Used
+
+- Python 3
+- PyTorch
+- TensorFlow
+- NumPy
+- OpenAI Gym
+- Google Colab
+- Git
+
+---
+
+## 📈 Visual Demo
+
+Example run of trained MAPF agents navigating to their destinations without collisions:  
+[![MAPF Demo GIF](https://giphy.com/gifs/artificial-intelligence-computer-science-reinforcement-learning-ThAouXKuiW0Z6Aswba)](https://giphy.com/gifs/artificial-intelligence-computer-science-reinforcement-learning-ThAouXKuiW0Z6Aswba)
+
+---
+
+## 🖼️ Research Poster
+
+Full project poster summarizing methods and results:  
+[MAPF Framework Research Poster (PDF)](./poster.png)
+
+---
+
+## 👥 Acknowledgments
+
+- **Eric Ewing** — PhD Mentor (USC Viterbi ACT Lab)
+- **Anthony Flores-Alvarez** — Research Intern & Developer
+
+---
+
+## 🚀 Future Work
+
+- Extend to continuous environments and 3D navigation
+- Explore centralized learning with decentralized execution (CLDE) frameworks
+- Apply curriculum learning to improve policy generalization for high agent counts
