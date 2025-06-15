@@ -6,6 +6,13 @@ MAPF is an NP-hard problem with growing relevance to real-world robotics, wareho
 
 ---
 
+## 📈 Visual Demo
+
+Example run of trained MAPF agents navigating to their destinations without collisions:  
+![MAPF Demo GIF](https://media.giphy.com/media/ThAouXKuiW0Z6Aswba/giphy.gif)
+
+---
+
 ## 🔬 Research Context
 
 - **Program:** USC Viterbi School of Engineering — SHINE Research Program  
@@ -46,13 +53,6 @@ MAPF is an NP-hard problem with growing relevance to real-world robotics, wareho
 - OpenAI Gym
 - Google Colab
 - Git
-
----
-
-## 📈 Visual Demo
-
-Example run of trained MAPF agents navigating to their destinations without collisions:  
-![MAPF Demo GIF](https://media.giphy.com/media/ThAouXKuiW0Z6Aswba/giphy.gif)
 
 
 ---
