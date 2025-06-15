@@ -52,7 +52,8 @@ MAPF is an NP-hard problem with growing relevance to real-world robotics, wareho
 ## 📈 Visual Demo
 
 Example run of trained MAPF agents navigating to their destinations without collisions:  
-[![MAPF Demo GIF](https://giphy.com/gifs/artificial-intelligence-computer-science-reinforcement-learning-ThAouXKuiW0Z6Aswba)](https://giphy.com/gifs/artificial-intelligence-computer-science-reinforcement-learning-ThAouXKuiW0Z6Aswba)
+![MAPF Demo GIF](https://media.giphy.com/media/ThAouXKuiW0Z6Aswba/giphy.gif)
+
 
 ---
 
